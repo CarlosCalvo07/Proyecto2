@@ -1,0 +1,99 @@
+
+div {
+    background-color: #00bfa5;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+div ul li {
+    color: white;
+}
+
+div ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+div ul li a:hover {
+    background-color: #0056b3;
+}
+
+#MostrarSlider {
+    background-image: url("../img/baner5.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 40vh;
+    padding: 50px;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: antiquewhite;
+}
+#cuerpo {
+    background-color: rgb(254, 238, 238);
+    height: auto;
+    font-size: 20px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#cuerpo td {
+    text-align: center;
+}
+
+
+.piePagina {
+    background-color: black;
+    height: 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Mostrarbanner1{
+    background-image: url("../img/baner2.jpg");
+   background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:40vh;
+    padding: 50px;
+    font-size: 50px;
+}
+#Mostrarbanner2{
+    background-image: url("../img/baner3.png");
+   background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:40vh;
+    padding: 50px;
+    font-size: 50px;
+}
+#Mostrarbanner3{
+    background-image: url("../img/baner4.png");
+   background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:40vh;
+    padding: 50px;
+    font-size: 50px;
+}
